@@ -1,0 +1,175 @@
+ERROR - 2022-09-22 08:39:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'film', 3306, '', 0)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\LKS\app\Controllers\film.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->index()
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#9 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\LKS\app\Controllers\film.php(25): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->index()
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 08:39:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `listFilm`
+ORDER BY `tahunTerbit` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\film.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 08:41:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'film', 3306, '', 0)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\LKS\app\Controllers\film.php(31): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->show('show')
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#9 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\LKS\app\Controllers\film.php(31): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->show('show')
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 08:41:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `listFilm`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\film.php(31): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:39:22 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\film.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\film.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Film')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Film')
+ 4 SYSTEMPATH\CodeIgniter.php(857): class_exists('\\App\\Controllers\\Film', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:40:20 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\filmModel.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\filmModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\filmModel')
+ 3 APPPATH\Controllers\film.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\filmModel')
+ 4 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:41:44 --> Call to undefined method App\Models\filmModel::show
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\film.php(38): CodeIgniter\Model->__call('show', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:42:06 --> Call to a member function where() on null
+in APPPATH\Models\filmModel.php on line 65.
+ 1 APPPATH\Controllers\film.php(38): App\Models\filmModel->show([...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:45:56 --> Too few arguments to function App\Models\filmModel::show(), 0 passed in D:\xampp\htdocs\LKS\app\Controllers\film.php on line 31 and exactly 1 expected
+in APPPATH\Models\filmModel.php on line 62.
+ 1 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:46:53 --> Call to a member function findAll() on null
+in APPPATH\Models\filmModel.php on line 64.
+ 1 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:47:47 --> Call to a member function findAll() on null
+in APPPATH\Models\filmModel.php on line 64.
+ 1 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:49:27 --> Call to a member function findAll() on null
+in APPPATH\Models\filmModel.php on line 64.
+ 1 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:50:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\filmModel.php on line 64.
+ 1 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:51:02 --> Call to undefined method App\Models\filmModel::rate
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\filmModel.php(90): CodeIgniter\Model->__call('rate', [...])
+ 2 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:57:40 --> Call to undefined method App\Models\filmModel::respond
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\filmModel.php(109): CodeIgniter\Model->__call('respond', [...])
+ 2 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:58:34 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Models\filmModel->format([...])
+ 2 APPPATH\Models\filmModel.php(112): App\Models\filmModel->respond([...], 200)
+ 3 APPPATH\Controllers\film.php(31): App\Models\filmModel->show()
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

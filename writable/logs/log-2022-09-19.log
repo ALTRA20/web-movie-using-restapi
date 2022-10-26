@@ -1,0 +1,206 @@
+CRITICAL - 2022-09-19 08:44:18 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(63): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:45:13 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(63): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:47:07 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(64): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:47:56 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(64): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:48:31 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(56): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:51:22 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(64): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 08:54:32 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\film.php(63): App\Controllers\film->respond([...], 200)
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:02:20 --> Undefined property: App\Controllers\pages::$model
+in APPPATH\Controllers\pages.php on line 33.
+ 1 APPPATH\Controllers\pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\pages::$model', 'APPPATH\\Controllers\\pages.php', 33)
+ 2 APPPATH\Controllers\pages.php(9): App\Controllers\pages->show()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:02:49 --> Class "App\Controllers\filmModel" not found
+in APPPATH\Controllers\pages.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:04:02 --> Class "App\Controllers\filmModel" not found
+in APPPATH\Controllers\pages.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:04:12 --> Class "App\Controllers\rateFilmModel" not found
+in APPPATH\Controllers\pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:04:34 --> Call to undefined method App\Controllers\pages::rate()
+in APPPATH\Controllers\pages.php on line 60.
+ 1 APPPATH\Controllers\pages.php(15): App\Controllers\pages->show()
+ 2 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:05:51 --> Call to undefined method App\Controllers\pages::rate()
+in APPPATH\Controllers\pages.php on line 61.
+ 1 APPPATH\Controllers\pages.php(16): App\Controllers\pages->show()
+ 2 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:07:17 --> Call to undefined method App\Controllers\pages::rate()
+in APPPATH\Controllers\pages.php on line 62.
+ 1 APPPATH\Controllers\pages.php(16): App\Controllers\pages->show()
+ 2 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:08:58 --> Undefined property: App\Controllers\pages::$apiFilm
+in APPPATH\Controllers\pages.php on line 96.
+ 1 APPPATH\Controllers\pages.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\pages::$apiFilm', 'APPPATH\\Controllers\\pages.php', 96)
+ 2 APPPATH\Controllers\pages.php(62): App\Controllers\pages->rate('1')
+ 3 APPPATH\Controllers\pages.php(16): App\Controllers\pages->show()
+ 4 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:09:40 --> Undefined property: App\Controllers\pages::$apiFilm
+in APPPATH\Controllers\pages.php on line 96.
+ 1 APPPATH\Controllers\pages.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\pages::$apiFilm', 'APPPATH\\Controllers\\pages.php', 96)
+ 2 APPPATH\Controllers\pages.php(62): App\Controllers\pages->rate('1')
+ 3 APPPATH\Controllers\pages.php(16): App\Controllers\pages->show()
+ 4 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:21:26 --> Call to undefined function App\Controllers\app()
+in APPPATH\Controllers\pages.php on line 95.
+ 1 APPPATH\Controllers\pages.php(61): App\Controllers\pages->rate('1')
+ 2 APPPATH\Controllers\pages.php(15): App\Controllers\pages->show()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:25:36 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\pages.php(85): App\Controllers\film->respond([...], 200)
+ 3 APPPATH\Controllers\pages.php(15): App\Controllers\pages->show()
+ 4 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:25:53 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 334.
+ 1 SYSTEMPATH\API\ResponseTrait.php(99): App\Controllers\film->format([...])
+ 2 APPPATH\Controllers\pages.php(85): App\Controllers\film->respond([...], 200)
+ 3 APPPATH\Controllers\pages.php(15): App\Controllers\pages->show()
+ 4 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:27:28 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+in APPPATH\Controllers\pages.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\pages')
+ 4 SYSTEMPATH\CodeIgniter.php(857): class_exists('\\App\\Controllers\\pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 09:31:18 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\film.php on line 82.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\film.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\film')
+ 3 APPPATH\Controllers\pages.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\film')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\pages.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\pages.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\pages')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\pages')
+ 8 SYSTEMPATH\CodeIgniter.php(857): class_exists('\\App\\Controllers\\pages', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 10:03:19 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\HTTP\Response given, called in D:\xampp\htdocs\LKS\app\Controllers\pages.php on line 21
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\pages.php(21): view('film/index', Object(CodeIgniter\HTTP\Response))
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\pages->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-19 10:04:07 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\HTTP\Response given, called in D:\xampp\htdocs\LKS\app\Controllers\pages.php on line 21
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\pages.php(21): view('film/index', Object(CodeIgniter\HTTP\Response))
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\pages->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

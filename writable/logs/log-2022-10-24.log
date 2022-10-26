@@ -1,0 +1,41 @@
+ERROR - 2022-10-24 20:03:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'film', 3306, '', 0)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\LKS\app\Controllers\film.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->show('show')
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#9 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\LKS\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\LKS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\LKS\app\Controllers\film.php(29): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->show('show')
+#7 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-24 20:03:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `listFilm`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\film.php(29): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->show('show')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

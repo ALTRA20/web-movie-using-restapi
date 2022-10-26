@@ -1,0 +1,145 @@
+CRITICAL - 2022-09-07 22:31:56 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:34:00 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:38:52 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:40:12 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:41:04 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:41:48 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:42:03 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:42:24 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:43:33 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(16): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:46:41 --> db1 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\filmModel.php(15): CodeIgniter\Database\Config::connect('db1')
+ 2 APPPATH\Controllers\film.php(14): App\Models\filmModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\film->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 22:47:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 D:\xampp\htdocs\LKS\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\LKS\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\LKS\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\LKS\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\LKS\app\Controllers\film.php(36): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->create()
+#10 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#11 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\LKS\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\LKS\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\LKS\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#3 D:\xampp\htdocs\LKS\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#4 D:\xampp\htdocs\LKS\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 D:\xampp\htdocs\LKS\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#6 D:\xampp\htdocs\LKS\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#7 D:\xampp\htdocs\LKS\app\Controllers\film.php(36): CodeIgniter\BaseModel->save(Array)
+#8 D:\xampp\htdocs\LKS\system\CodeIgniter.php(907): App\Controllers\film->create()
+#9 D:\xampp\htdocs\LKS\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+#10 D:\xampp\htdocs\LKS\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LKS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-07 22:47:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `listFilm` (`judul`, `genre`, `penulis`, `sutradara`, `penerbit`, `tahunTerbit`, `negara`, `actor`, `storyline`, `durasi`) VALUES (:judul:, :genre:, :penulis:, :sutradara:, :penerbit:, :tahunTerbit:, :negara:, :actor:, :storyline:, :durasi:)', [...], false)
+ 3 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\film.php(36): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->create()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:33:32 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\film.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\film.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Film')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Film')
+ 4 SYSTEMPATH\CodeIgniter.php(857): class_exists('\\App\\Controllers\\Film', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:56:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\film.php(69): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\film->update('Peaky-Blinders-2014-Serial-Drama-Subtitle-Indonesia-2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\film))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
